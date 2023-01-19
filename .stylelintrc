@@ -1,0 +1,10 @@
+{
+  "customSyntax": "postcss-less",
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier",
+    "stylelint-config-idiomatic-order"
+  ],
+  "plugins": ["stylelint-order"],
+  "ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.tsx", "**/*.ts"]
+}
