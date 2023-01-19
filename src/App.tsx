@@ -1,7 +1,7 @@
-import "./App.less";
+import "@/App.less";
 
 function App() {
-  return <div>app</div>;
+  return <div>vite-react-h5-template</div>;
 }
 
 export default App;

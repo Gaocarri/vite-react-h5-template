@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "log": "standard-version",
     "prettier": "prettier -c --write \"**/**.{js,jsx,tsx,ts,less,md,json}\"",
-    "lint:js": "eslint src types --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:js": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
     "lint:css": "stylelint **/*.{css,less} --fix",
     "lint:lint-staged": "lint-staged",
     "prepare": "husky install"
@@ -37,6 +37,7 @@
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.0.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.13",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-react": "^7.32.1",
@@ -44,6 +45,7 @@
     "less": "^4.1.3",
     "lint-staged": "^13.1.0",
     "postcss-less": "^6.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
     "prettier": "^2.8.3",
     "standard-version": "^9.5.0",
     "stylelint": "^14.16.1",
@@ -55,4 +57,3 @@
     "vite": "^4.0.0"
   }
 }
-

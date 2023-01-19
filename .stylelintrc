@@ -5,6 +5,9 @@
     "stylelint-config-prettier",
     "stylelint-config-idiomatic-order"
   ],
+  "rules": {
+    "import-notation": null
+  },
   "plugins": ["stylelint-order"],
   "ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.tsx", "**/*.ts"]
 }
