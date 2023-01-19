@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "log": "standard-version",
     "prettier": "prettier -c --write \"**/**.{js,jsx,tsx,ts,less,md,json}\"",
-    "lint:js": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:js": "eslint src types --ext .js,.jsx,.ts,.tsx --fix",
     "lint:css": "stylelint **/*.{css,less} --fix",
     "lint:lint-staged": "lint-staged",
     "prepare": "husky install"
@@ -55,3 +55,4 @@
     "vite": "^4.0.0"
   }
 }
+
