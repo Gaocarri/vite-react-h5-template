@@ -43,7 +43,7 @@ axios.interceptors.response.use(
 
 const request = (url: string, config?: AxiosRequestConfig): Promise<any> => {
   const _config = {
-    url: `${import.meta.env.VITE_BASE_API}${url}`,
+    url,
     ...config,
   };
   return axios.request(_config);
