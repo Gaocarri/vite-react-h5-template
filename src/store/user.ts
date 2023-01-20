@@ -7,7 +7,7 @@ export interface IUserStore {
 }
 
 class UserStore implements IUserStore {
-  public name = "carri";
+  public name = "";
   public level = 1;
 
   constructor() {
@@ -16,6 +16,10 @@ class UserStore implements IUserStore {
 
   public increaseLevel = () => {
     this.level += 1;
+  };
+
+  public updateName = (name: string) => {
+    this.name = name;
   };
 }
 
