@@ -24,6 +24,7 @@
     ]
   },
   "dependencies": {
+    "axios": "^1.2.3",
     "classnames": "^2.3.2",
     "lodash-es": "^4.17.21",
     "mobx": "^6.7.0",
